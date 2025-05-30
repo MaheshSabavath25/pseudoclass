@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+    
+}
+.box1{
+    width: 200px;
+    height: 400px;
+    border: 2px solid;
+    background-color: lemonchiffon;
+   
+
+   
+}
+.box2{
+    width: 200px;
+    height: 400px;
+    border: 2px solid;
+     background-color: lightgreen;
+}
+.box3{
+    width: 200px;
+    height: 400px;
+    border: 2px solid;
+     background-color: lightgrey;
+}
+.box4{
+    width: 200px;
+    height: 400px;
+    border: 2px solid;
+     background-color: lightskyblue;
+}
+p{
+    margin-top: 170px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+/* .PP{
+    font-size: 10PX;
+} */
+.img1{
+    width: 200px;
+    margin-top: -212px;
+    height: 100%;
+    
+}
+p{
+    opacity:0;
+}
+.box1:hover>img{
+    display: none;
+
+}
+.box1:hover>p{
+    opacity: 1;
+    transition-duration: 1s;
+    font-size: 22px;
+}
+.img2{
+    width: 200px;
+    margin-top: -212px;
+    height: 100%;
+}
+p{
+    opacity:0;
+}
+.box2:hover>img{
+    display: none;
+
+}
+.box2:hover>p{
+    opacity: 1;
+    transition-duration: 1s;
+    font-size: 22px;
+    
+}
+.img3{
+    width: 200px;
+    margin-top: -212px;
+    height: 100%;
+    background-color: white;
+}
+p{
+    opacity:0;
+}
+.box3:hover>img{
+    display: none;
+
+}
+.box3:hover>p{
+    opacity: 1;
+    transition-duration: 1s;
+    font-size: 22px;
+}
+.img4{
+    width: 200px;
+    margin-top: -212px;
+    height: 100%;
+}
+p{
+    opacity:0;
+}
+.box4:hover>img{
+    display: none;
+
+}
+.box4:hover>p{
+    opacity: 1;
+    transition-duration: 1s;
+    font-size: 21px;
+}
+
+
+
+    
